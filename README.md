@@ -1,4 +1,4 @@
-# JAPHibernate
+# JAP _ Hibernate
 
 
   This is a simple example of how to use the Java Persistence API (JPA) to interact with a relational database. The example creates an EntityManagerFactory and an EntityManager, which are used to interact with the database.
