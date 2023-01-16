@@ -1,9 +1,14 @@
 # JAPHibernate
 
 
+This is a simple example of how to use the Java Persistence API (JPA) to interact with a relational database. The example creates an EntityManagerFactory and an EntityManager, which are used to interact with the database.
 
+The first line of the main method creates an EntityManagerFactory with the persistence unit name "myPU". A persistence unit defines a set of related mappings and configurations for a specific database.
 
+The second line creates an EntityManager, which is the main object used to interact with the database.
 
-The Java Persistence API (JPA) is a specification for managing data in a relational database using Java. It provides a way to map Java objects to relational database tables and vice versa, as well as a way to manage the data in the database using Java code. JPA defines a set of standard interfaces and annotations that can be used to define the mapping between Java objects and the database, as well as a set of API calls for performing common operations, such as inserting, updating, and querying data in the database.
-It is implemented by various ORM (Object-relational mapping) frameworks like Hibernate, EclipseLink, OpenJPA etc. These frameworks provide a concrete implementation of the JPA specification and can be used to interact with a variety of different databases.
+The EntityManager's find method is used to fetch a developer object from the database using the primary key value of 1. The developer object's name and language properties are then printed to the console.
 
+The example then creates a new developer object, sets its properties, and uses the EntityManager's persist method to insert the new developer object into the database. This will insert a new row into the developer table.
+
+The code then starts a new transaction, persists the new developer object into the database, and commits the transaction. This way we can insert new rows in to the table.
