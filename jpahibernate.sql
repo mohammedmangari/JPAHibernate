@@ -38,10 +38,10 @@ CREATE TABLE `developer` (
 --
 
 INSERT INTO `developer` (`id`, `name`, `langauge`) VALUES
-(1, 'med', 'java'),
-(2, 'maha', 'php'),
-(3, 'medman', 'python'),
-(5, 'mohammed', 'C');
+(1, 'developer1', 'java'),
+(2, 'developer2', 'php'),
+(3, 'developer3', 'python'),
+(5, 'developer4', 'C');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
